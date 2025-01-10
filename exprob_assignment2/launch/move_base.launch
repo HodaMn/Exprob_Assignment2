@@ -12,5 +12,5 @@
     <rosparam file="$(find exprob_assignment2)/param/move_base_params.yaml" command="load"/>
   </node>
   
-
 </launch>
+
