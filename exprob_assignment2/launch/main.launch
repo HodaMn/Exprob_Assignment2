@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+	<include file="$(find exprob_assignment2)/launch/sim_aruco.launch"></include>
+	<param name="last_loc" value= "wp4" />
+	<param name="least_id" value= "200" />
+	<!-- Run the launch file for running the planner domain and problem -->
+    	<include file="$(find exprob_assignment2)/launch/gmapping.launch"></include>
+    	<include file="$(find exprob_assignment2)/launch/move_base.launch"></include>
+    	
+</launch>
